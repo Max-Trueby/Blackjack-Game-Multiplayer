@@ -4,7 +4,7 @@ const app = express();
 const server = require("http").createServer(app);
 const PORT = process.env.PORT || 3000;
 const WebSocket = require("ws")
-const WEB_URL = PORT === 3000 ? "http://localhost:3000/" : "https://flg21.vercel.app/";
+const WEB_URL = PORT === 3000 ? "http://localhost:3000/" : "https://21.maxtrueby.com/";
 
 const wss = new WebSocket.Server({ server:server })
 
